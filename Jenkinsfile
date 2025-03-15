@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'g++ new.cpp -o output'
+                sh 'g++ newWrong.cpp -o output'
                 echo 'Build Stage Successful'
             }
         }
